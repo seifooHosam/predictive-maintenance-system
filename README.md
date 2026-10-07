@@ -1,152 +1,117 @@
-\# 🛠️ Predictive Maintenance System
+# 🛠️ Predictive Maintenance System
 
+An end-to-end Machine Learning project for predicting whether a CNC machine is likely to experience a failure based on sensor readings.
 
+## 🚀 Live Demo
 
-An end-to-end Machine Learning project for predicting whether a CNC machine reading indicates an upcoming machine failure or no machine failure.
+[Try the Live Demo](https://predictive-maintenance-system-for-i-alpha.vercel.app/)
 
+## 📌 Project Overview
 
-
-\## 🚀 Live Demo
-
-
-
-https://predictive-maintenance-system-for-i-alpha.vercel.app/
-
-
-
-\## 📌 Project Overview
-
-
-
-This project builds a predictive maintenance system using machine sensor readings to classify whether a machine is likely to experience a failure.
-
-
+This project builds a Predictive Maintenance System that analyzes machine sensor readings and predicts whether a machine is likely to experience a failure.
 
 The machine learning workflow includes:
 
+- Data loading
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Feature selection
+- Model training
+- Model validation
+- Model comparison
+- Final model evaluation
+- Model saving and reloading
+- Prediction and inference
 
-
-\- Data loading
-
-\- Data cleaning
-
-\- Exploratory Data Analysis (EDA)
-
-\- Feature selection
-
-\- Model training
-
-\- Model validation
-
-\- Model comparison
-
-\- Final model evaluation
-
-\- Model saving and reloading
-
-\- Prediction / inference
-
-
-
-\## 🤖 Machine Learning
-
-
+## 🤖 Machine Learning
 
 Three classification models were evaluated:
 
-
-
-\- Logistic Regression
-
-\- Linear SVM
-
-\- Random Forest
-
-
+- Logistic Regression
+- Linear SVM
+- Random Forest
 
 The models use a common preprocessing pipeline including:
 
-
-
-\- Missing-value imputation
-
-\- Feature scaling
-
-\- Categorical encoding
-
-
+- Missing-value imputation
+- Feature scaling
+- Categorical encoding
 
 The best model is selected based on the validation F1-score.
 
-
-
-\## 📊 Features
-
-
+## 📊 Features
 
 The project uses machine sensor readings such as:
 
-
-
-\- Hydraulic Pressure
-
-\- Coolant Pressure
-
-\- Air System Pressure
-
-\- Coolant Temperature
-
-\- Hydraulic Oil Temperature
-
-\- Spindle Bearing Temperature
-
-\- Spindle Vibration
-
-\- Tool Vibration
-
-\- Spindle Speed
-
-\- Voltage
-
-\- Torque
-
-\- Cutting Force
-
-
+- Hydraulic Pressure
+- Coolant Pressure
+- Air System Pressure
+- Coolant Temperature
+- Hydraulic Oil Temperature
+- Spindle Bearing Temperature
+- Spindle Vibration
+- Tool Vibration
+- Spindle Speed
+- Voltage
+- Torque
+- Cutting Force
 
 Feature selection is performed using Random Forest feature importance, and the top six most influential features are selected for the final models.
 
-
-
-\## 📁 Project Structure
-
-
+## 📁 Project Structure
 
 ```text
-
 predictive-maintenance-system/
-
 │
-
 ├── Model/
-
-│   ├── Machine\_Downtime\_Predictive\_Maintenance\_(4).ipynb
-
-│   ├── machine\_downtime\_pipeline.pkl
-
-│   └── machine\_downtime\_metadata.json
-
+│   ├── Machine_Downtime_Predictive_Maintenance_(4).ipynb
+│   ├── machine_downtime_pipeline.pkl
+│   └── machine_downtime_metadata.json
 │
-
 ├── docs/
-
-│   ├── Machine\_Downtime\_Prediction\_1.pptx
-
+│   ├── Machine_Downtime_Prediction_1.pptx
 │   └── Links.txt
-
 │
-
 ├── README.md
-
 └── .gitignore
 
+## 🧰 Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Joblib
+- Gradio
+- Jupyter Notebook
+
+## 💾 Saved Model
+
+The trained machine learning pipeline is stored in:
+
+`Model/machine_downtime_pipeline.pkl`
+
+Model metadata is stored in:
+
+`Model/machine_downtime_metadata.json`
+
+## 🔮 Prediction Output
+
+The system provides:
+
+- Machine failure prediction
+- Failure probability
+- Prediction confidence
+- Manual review indication
+
+## 📚 Documentation
+
+Additional project documentation and presentation files are available in the `docs/` directory.
+
+## 👨‍💻 Project
+
+**Predictive Maintenance System**
+
+Machine Learning project focused on machine failure detection using sensor data.
