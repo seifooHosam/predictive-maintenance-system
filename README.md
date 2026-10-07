@@ -5,6 +5,7 @@ An end-to-end Machine Learning project for predicting whether a CNC machine is l
 ## 🚀 Live Demo
 
 [Try the Live Demo](https://predictive-maintenance-system-for-i-alpha.vercel.app/)
+![Predictive Maintenance Live Demo](docs/demo.png)
 
 ## 📌 Project Overview
 
