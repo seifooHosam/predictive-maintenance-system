@@ -1,0 +1,6 @@
+github Repositore==>
+https://github.com/mohamedalaaeldin-momo/Predictive-maintenance-system-for-industrial-equipment-Final-Project-
+
+GUI==>
+https://predictive-maintenance-system-for-i-alpha.vercel.app/
+
